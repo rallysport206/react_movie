@@ -1,10 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SearchMovie from './searchMovie';
 
 class App extends React.Component {
     render() {
         return (
-            <h1>test test</h1>
+            <div className="container">
+                <h1 className="title">React Movie Search</h1>
+                <SearchMovie/>
+            </div>
         );
     }
 }
