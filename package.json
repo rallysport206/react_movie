@@ -8,8 +8,8 @@
       [
         "@babel/preset-env",
         {
-          "targets":{
-            "browsers":[
+          "targets": {
+            "browsers": [
               ">0.25%",
               "not ie 11",
               "not op_mini all"
@@ -19,7 +19,7 @@
       ],
       "@babel/preset-react"
     ],
-    "plugins":[
+    "plugins": [
       "@babel/plugin-transform-runtime"
     ]
   },
@@ -30,6 +30,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   },
