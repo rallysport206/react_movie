@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import MovieCard from 'movieCard.js';
+import MovieCard from './movieCard';
 
 export default function SearchMovies(){
 
@@ -34,7 +34,7 @@ export default function SearchMovies(){
             </form>
             <div className="card-list">
                 {movies.filter(movie => movie.poster_path).map(movie => ( 
-                    <MovieCard movie={movie} />
+                    <MovieCard movie={movie} key={movie,id} />
                 ))}
             </div>
         </>
